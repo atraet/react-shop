@@ -1,0 +1,186 @@
+{
+  "companies": [
+    {
+      "handelsnaam": "ANWB Test- en Trainingscentrum V.O.F.",
+      "dossiernummer": "39067844",
+      "subdossiernummer": "0000",
+      "vestigingsnummer": "000015881555",
+      "straat": "Talingweg",
+      "huisnummer": "120",
+      "huisnummertoevoeging": "",
+      "postcode": "8218NX",
+      "plaats": "Lelystad"
+    },
+    {
+      "handelsnaam": "i-Test Talentcenter B.V.",
+      "dossiernummer": "17170401",
+      "subdossiernummer": "0000",
+      "vestigingsnummer": "000009033092",
+      "straat": "Ten Hagestraat",
+      "huisnummer": "8",
+      "huisnummertoevoeging": "",
+      "postcode": "5611EG",
+      "plaats": "Eindhoven"
+    },
+    {
+      "handelsnaam": "Van Leeuwen Test Systems B.V.",
+      "dossiernummer": "20036585",
+      "subdossiernummer": "0000",
+      "vestigingsnummer": "000017635985",
+      "straat": "Nieuwe Donk",
+      "huisnummer": "18",
+      "huisnummertoevoeging": "",
+      "postcode": "4879AC",
+      "plaats": "Etten-Leur"
+    },
+    {
+      "handelsnaam": "Trias Test Trainings en Adviescentrum B.V.",
+      "dossiernummer": "30113106",
+      "subdossiernummer": "0000",
+      "vestigingsnummer": "000017035821",
+      "straat": "Mississippidreef",
+      "huisnummer": "61",
+      "huisnummertoevoeging": "",
+      "postcode": "3565CE",
+      "plaats": "Utrecht"
+    },
+    {
+      "handelsnaam": "Globe Test Equipment B.V.",
+      "dossiernummer": "28073996",
+      "subdossiernummer": "0000",
+      "vestigingsnummer": "000016262182",
+      "straat": "Eikenlaan",
+      "huisnummer": "261",
+      "huisnummertoevoeging": "E",
+      "postcode": "2404BP",
+      "plaats": "Alphen aan den Rijn"
+    },
+    {
+      "handelsnaam": "Your Test Professionals B.V.",
+      "dossiernummer": "30199665",
+      "subdossiernummer": "0000",
+      "vestigingsnummer": "000017588421",
+      "straat": "Bovenkerkerweg",
+      "huisnummer": "81",
+      "huisnummertoevoeging": "P",
+      "postcode": "1187XC",
+      "plaats": "Amstelveen"
+    },
+    {
+      "handelsnaam": "Pen Tests Publisher B.V.",
+      "dossiernummer": "10038377",
+      "subdossiernummer": "0000",
+      "vestigingsnummer": "000005498511",
+      "straat": "Twaalf Apostelenweg",
+      "huisnummer": "2",
+      "huisnummertoevoeging": "",
+      "postcode": "6523LW",
+      "plaats": "Nijmegen"
+    },
+    {
+      "handelsnaam": "Test & Meet Services",
+      "dossiernummer": "31044255",
+      "subdossiernummer": "0000",
+      "vestigingsnummer": "000003502023",
+      "straat": "Nabbert",
+      "huisnummer": "33",
+      "huisnummertoevoeging": "",
+      "postcode": "3831PK",
+      "plaats": "Leusden"
+    },
+    {
+      "handelsnaam": "Test & Treatment Products B.V.",
+      "dossiernummer": "33255347",
+      "subdossiernummer": "0000",
+      "vestigingsnummer": "000018895891",
+      "straat": "Amsteldijk",
+      "huisnummer": "155",
+      "huisnummertoevoeging": "HS",
+      "postcode": "1079LH",
+      "plaats": "Amsterdam"
+    },
+    {
+      "handelsnaam": "Hendriks Test Specialist",
+      "dossiernummer": "50031341",
+      "subdossiernummer": "0000",
+      "vestigingsnummer": "000000008923",
+      "straat": "Beethovenlaan",
+      "huisnummer": "223",
+      "huisnummertoevoeging": "",
+      "postcode": "5011LG",
+      "plaats": "Tilburg"
+    }
+  ],
+  "Products": [
+    {
+      "prijs": "6,32",
+      "productnaam": "Bedrijfsprofiel",
+      "productstatus": "inactiefB",
+      "systeemmelding": "82 De gegevens betreffende dit dossier zijn tijdelijk niet beschikbaar.",
+      "productomschrijving": "Uittreksel + concernrelaties + deponeringen + historie."
+    },
+    {
+      "producturl": "/TST-BIN/FU/TSWS002@?BUTT=342679810000",
+      "productnaam": "Uittreksel",
+      "productstatus": "actief",
+      "prijs": "Vanaf 2,61",
+      "varianten": [
+        {
+          "productnaam": "Inzien uittreksel",
+          "productstatus": "inactiefB",
+          "systeemmelding": "02 Het uittreksel is momenteel in behandeling bij de kamer van koophandel. U kunt het uittreksel niet inzien of als e-mail laten toezenden.",
+          "prijs": " 2,61"
+        },
+        {
+          "productnaam": "Digitaal gewaarmerkt uittreksel",
+          "productstatus": "inactiefB",
+          "prijs": " 7,50"
+        },
+        {
+          "producturl": "/TST-BIN/FU/BUWS006@?BUTT=342679810000",
+          "productnaam": "Papieren gewaarmerkt uittreksel",
+          "productstatus": "actief",
+          "prijs": " 11,01"
+        }
+      ]
+    },
+    {
+      "producturl": "/TST-BIN/FU/JRWS001@?BUTT=342679810000",
+      "productnaam": "Jaarrekeningen",
+      "productstatus": "actief",
+      "prijs": "Vanaf 2,81"
+    },
+    {
+      "producturl": "/TST-BIN/FU/MDWS001@?BUTT=H342679810000",
+      "productnaam": "Concernrelaties",
+      "productstatus": "actief",
+      "datumconcernrelaties": "12-1-2014",
+      "prijs": "3,71"
+    },
+    {
+      "producturl": "/TST-BIN/FU/OIWWW01@?BUTT=ALLE++++342679810000&CHK1=J",
+      "productnaam": "Documenten",
+      "productstatus": "actief",
+      "productomschrijving": "Overige documenten over deze onderneming zoals statuten en fusie- en splitsingsvoorstellen.",
+      "prijs": "Vanaf 2,91"
+    },
+    {
+      "productnaam": "Historie",
+      "productstatus": "inactiefB",
+      "systeemmelding": "54 Het uittreksel is momenteel in behandeling bij de kamer van koophandel. De historische informatie betreffende dit dossier is niet beschikbaar.",
+      "prijs": "1,01"
+    },
+    {
+      "productnaam": "Deponeringen",
+      "productstatus": "inactiefB",
+      "systeemmelding": "64 Het uittreksel is momenteel in behandeling bij de kamer van koophandel. De deponerings informatie betreffende dit dossier is niet beschikbaar.",
+      "prijs": "2,51"
+    },
+    {
+      "productnaam": "In het kort",
+      "productstatus": "inactiefB",
+      "systeemmelding": "34 Het uittreksel is momenteel in behandeling bij de kamer van koophandel. De verkorte informatie (&quot;In het kort&quot;) betreffende dit dossier is niet beschikbaar.",
+      "prijs": "0,31"
+    }
+  ]
+}
