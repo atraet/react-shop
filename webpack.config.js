@@ -32,8 +32,8 @@ module.exports = {
                 loader: 'json-loader'
             },
             {
-                test: /\.(svg|ttf|woff|woff2|eot)(\?v=\d+\.\d+\.\d+)?$/,
-                loader: "url-loader"
+                test: /\.(svg|ttf|woff|woff2|eot|png|jpg)(\?v=\d+\.\d+\.\d+)?$/,
+                loader: "url-loader?limit=10000"
             }
         ]
     },
