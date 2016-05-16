@@ -1,3 +1,4 @@
+require('./step1.scss');
 import React from 'react';
 import SearchPanel from './SearchPanel.jsx';
 import Companies from './Companies.jsx';

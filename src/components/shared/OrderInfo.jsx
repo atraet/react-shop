@@ -1,3 +1,5 @@
+require('./order-info.scss');
+
 import React from 'react';
 import {connect} from 'react-redux';
 import {deselectCompany, deselectProduct} from '../../actions/';
@@ -5,7 +7,7 @@ import {deselectCompany, deselectProduct} from '../../actions/';
 class OrderInfo extends React.Component {
     render() {
         return (
-            <div className="row">
+            <div className="order-info">
                 {this.renderCompany()}
                 {this.renderProduct()}
             </div>
@@ -17,15 +19,10 @@ class OrderInfo extends React.Component {
             return null;
         }
         return (
-            <div className="col-sm-6">
-                <div className="panel panel-info">
-                    <div className="panel-heading">
-                        {this.props.selectedCompany.handelsnaam}
-                        <i className="glyphicon glyphicon-remove-circle"
-                           onClick={this.removeCompany.bind(this)}></i>
-                    </div>
-                    <div className="panel-body">{this.props.selectedCompany.handelsnaam}</div>
-                </div>
+            <div className="item company">
+                {this.props.selectedCompany.handelsnaam}
+                <i className="glyphicon glyphicon-remove-circle"
+                   onClick={this.removeCompany.bind(this)}></i>
             </div>
         )
     }
@@ -35,15 +32,10 @@ class OrderInfo extends React.Component {
             return null;
         }
         return (
-            <div className="col-sm-6">
-                <div className="panel panel-info">
-                    <div className="panel-heading">
-                        {this.props.selectedProduct.productnaam}
-                        <i className="glyphicon glyphicon-remove-circle"
-                           onClick={this.removeProduct.bind(this)}></i>
-                    </div>
-                    <div className="panel-body">{this.props.selectedProduct.productnaam}</div>
-                </div>
+            <div className="item product">
+                {this.props.selectedProduct.productnaam}
+                <i className="glyphicon glyphicon-remove-circle"
+                   onClick={this.removeProduct.bind(this)}></i>
             </div>
         )
     }

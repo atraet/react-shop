@@ -25,8 +25,8 @@ class Companies extends React.Component {
 
     renderCompanyList() {
         return (
-            <div>
-                <ul className="list-group">
+            <div className="company-list">
+                <ul className="">
                     {this.renderCompanies()}
                 </ul>
             </div>
@@ -36,11 +36,12 @@ class Companies extends React.Component {
     renderCompanies() {
         return this.props.companies.map(c => {
             return (
-                <li className="list-group-item"
+                <li className="company"
                     key={c.dossiernummer}
                     onClick={this.selectCompany.bind(this, c)}>
+                    <div className="title">
+                        <span>{c.handelsnaam}</span></div>
                     <span>{c.dossiernummer}</span>
-                    <span>{c.handelsnaam}</span>
                 </li>
             )
         })
